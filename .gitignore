@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+!.env.example
+prime_backend/.env
+prime_frontend/.env
+
+# Node
+node_modules/
+dist/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# OS
+.DS_Store
